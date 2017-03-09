@@ -10,6 +10,7 @@ organizeDownloads.py: This script takes all the files that are not folder and pu
 ## To run this put this in the crontab File:
 
 24 21 * * 1 python ~/cronscripts/datadump.py
+
 17 21 * * 4 python ~/cronscripts/organizeDownloads.py
 
 This will run the first script on every Monday 21:24 
